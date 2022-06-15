@@ -68,24 +68,30 @@ body {
   height: 9rem;
   width: 15rem;
   padding-top: 6rem;
+  cursor: pointer;
 }
 
-.spring {
+.weather-bg p:hover {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+#spring {
   background-color: #32cd32;
   color: #fff;
 }
 
-.summer {
+#summer {
   background-color: #ffa500;
   color: #000;
 }
 
-.autumn {
+#autumn {
   background-color: #cd853f;
   color: #fff;
 }
 
-.winter {
+#winter {
   background-color: #fffafa;
   color: #000;
 }
