@@ -12,19 +12,12 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
   background-color: #d3d3d3;
   border: solid 0.5rem #87cefa;
+  height: 100vh;
 }
 
-/**************************************************** card bg */
+/**************************************************** seasons card bg */
 .seasons-card-bg {
-  display: grid;
-  justify-items: center;
-  height: 97.9vh;
-}
-
-@media (min-width: 900px) {
-  .seasons-card-bg {
-    height: 97.8vh;
-  }
+  text-align: center;
 }
 
 /**************************************************** title */
@@ -47,6 +40,12 @@ body {
   }
 }
 
+@media (min-width: 900px) {
+  .main-title {
+    margin: 4rem 0 0;
+  }
+}
+
 /**************************************************** weather bg */
 .weather-bg {
   display: grid;
@@ -58,6 +57,7 @@ body {
 
 @media (min-width: 900px) {
   .weather-bg {
+    margin-top: 5rem;
     grid-template-columns: auto auto auto auto;
   }
 }
@@ -99,6 +99,14 @@ body {
 
 @media (min-width: 900px) {
   .weather-bg p {
-    width: 10rem;
+    width: 13rem;
+    height: 30rem;
+    padding-top: 25rem;
+  }
+}
+
+@media (min-width: 1285px) {
+  .weather-bg p {
+    width: 18rem;
   }
 }
