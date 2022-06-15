@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Red Hat Display', sans-serif;
   list-style: none;
   color: #000;
 }
@@ -11,4 +10,95 @@
 body {
   cursor: default;
   font-family: Verdana, Tahoma, sans-serif;
+  background-color: #d3d3d3;
+  border: solid 0.5rem #87cefa;
+}
+
+/**************************************************** card bg */
+.seasons-card-bg {
+  display: grid;
+  justify-items: center;
+  height: 97.9vh;
+}
+
+@media (min-width: 900px) {
+  .seasons-card-bg {
+    height: 97.8vh;
+  }
+}
+
+/**************************************************** title */
+.main-title {
+  margin: 1.5rem 0;
+}
+
+.main-title h1 {
+  font-size: 2rem;
+  color: #00008b;
+}
+
+@media (min-width: 600px) {
+  .main-title {
+    margin: 1rem 0;
+  }
+
+  .main-title h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/**************************************************** weather bg */
+.weather-bg {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  text-align: center;
+  grid-row-gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .weather-bg {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+/**************************************************** weather paras */
+.weather-bg p {
+  font-size: 1.5rem;
+  height: 9rem;
+  width: 15rem;
+  padding-top: 6rem;
+}
+
+.spring {
+  background-color: #32cd32;
+  color: #fff;
+}
+
+.summer {
+  background-color: #ffa500;
+  color: #000;
+}
+
+.autumn {
+  background-color: #cd853f;
+  color: #fff;
+}
+
+.winter {
+  background-color: #fffafa;
+  color: #000;
+}
+
+@media (min-width: 600px) {
+  .weather-bg p {
+    width: 32rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .weather-bg p {
+    width: 10rem;
+  }
 }
