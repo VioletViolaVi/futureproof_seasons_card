@@ -116,37 +116,3 @@ body {
     width: 18rem;
   }
 }
-
-/**************************************************** weather img */
-
-.weather-img {
-  height: 9rem;
-  width: 15rem;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-@media (min-width: 600px) {
-  .weather-img {
-    width: 32rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .weather-img {
-    width: 13rem;
-    height: 30rem;
-  }
-}
-
-@media (min-width: 1285px) {
-  .weather-img {
-    width: 18rem;
-  }
-}
