@@ -1,6 +1,6 @@
 # Futureproof Seasons Card
 
-- This project is based on the creation of a Seasons card. It was assigned by Futureproof. It uses HTML5 & CSS3 to create the static look.
+This project is based on the creation of a Seasons card. It was assigned by Futureproof. It uses HTML5 & CSS3 to create the static look.
 
 # Technologies Used
 
